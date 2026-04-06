@@ -1,0 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Poppins", sans-serif;
+  background: 
+  linear-gradient(rgba(2,6,23,0.6), rgba(2,6,23,0.7)),
+  url('./assets/bg.png');
+  color: #fff;
+  min-height: 100vh;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+
+button, input {
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
