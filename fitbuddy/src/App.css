@@ -11,6 +11,7 @@
   justify-content: center; 
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 .title {
@@ -23,13 +24,6 @@
   width: 40px;
   height: 40px;
 }
-h1 {
-  text-align: center;
-  margin-bottom: 10px;
-  font-weight: 600;
-  color: #e0f2fe;
-}
-
 
 .chat-box {
   height: 450px;
