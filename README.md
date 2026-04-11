@@ -1,4 +1,4 @@
-# 🏋️ AI Fitness Assistant
+# 🏋️ FitBuddy
 
 An intelligent fitness chatbot powered by **Google Gemini AI** that provides personalized workout plans, diet suggestions, and real-time BMI calculations — all through a sleek conversational interface.
 
@@ -38,8 +38,8 @@ An intelligent fitness chatbot powered by **Google Gemini AI** that provides per
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/ai-fitness-assistant.git
-   cd ai-fitness-assistant
+   git clone https://github.com/your-username/fitbuddy.git
+   cd fitbuddy
    ```
 
 2. **Install dependencies**
@@ -69,7 +69,7 @@ An intelligent fitness chatbot powered by **Google Gemini AI** that provides per
 ## 📁 Project Structure
 
 ```
-ai-fitness-assistant/
+fitbuddy/
 ├── public/                  # Static assets
 ├── src/
 │   ├── assets/              # Images & logos

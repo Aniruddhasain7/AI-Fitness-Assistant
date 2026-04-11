@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🏋️ AI Fitness Assistant</h1>
+      <h1>🏋️ FitBuddy</h1>
 
       <QuickActions onSend={handleSend} />
       <BMI />
