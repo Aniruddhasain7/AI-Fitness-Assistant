@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 .app {
   max-width: 900px;
@@ -5,7 +6,23 @@
   padding: 20px;
 }
 
+.header {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 10px;
+}
 
+.title {
+  font-family: 'orbitron', sans-serif;
+  font-size: 35px; 
+  font-weight: 700;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
 h1 {
   text-align: center;
   margin-bottom: 10px;

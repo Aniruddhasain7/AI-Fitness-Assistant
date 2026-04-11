@@ -6,6 +6,7 @@ import BMI from "./components/BMI";
 import { sendMessageToGemini } from "./services/gemini";
 import { saveMessages, loadMessages } from "./utils/localStorage";
 import "./App.css";
+import logo from './assets/logo.png';
 
 function App() {
   const [messages, setMessages] = useState([]);
@@ -31,7 +32,10 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🏋️ FitBuddy</h1>
+      <h1 className="header">
+        <img src={logo} alt="FitBuddy Logo" className="logo" />
+        <span className="title">FitBuddy</span>
+      </h1>
 
       <QuickActions onSend={handleSend} />
       <BMI />
